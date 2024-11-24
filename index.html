@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo na Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 0 0 10px;
+        }
+        .card-content p {
+            margin: 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore os Lugares Turísticos da Europa</h1>
+        <p>Descubra as maravilhas que a Europa tem a oferecer!</p>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="torre.jpeg"  alt="Torre Eiffel, Paris">
+                <div class="card-content">
+                    <h3>Paris, França</h3>
+                    <p>Conheça a romântica Cidade Luz, com a icônica Torre Eiffel, o Louvre e o charme das margens do rio Sena.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="Coliseu.jpg" alt="Coliseu, Roma">
+                <div class="card-content">
+                    <h3>Roma, Itália</h3>
+                    <p>Visite a histórica Roma, lar do Coliseu, do Vaticano e das antigas ruínas do Império Romano.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="bigben.jpg" alt="Big Ben, Londres">
+                <div class="card-content">
+                    <h3>Londres, Reino Unido</h3>
+                    <p>Explore a vibrante Londres com suas atrações icônicas, como o Big Ben, a Tower Bridge e o Palácio de Buckingham.</p>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="sagrada_familia.jpg" alt="Sagrada Família, Barcelona">
+                <div class="card-content">
+                    <h3>Barcelona, Espanha</h3>
+                    <p>Admire a arquitetura única de Gaudí na Sagrada Família e explore as praias e a vida noturna da cidade.</p>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <img src="amsterdam.jpg" alt="Amsterdã, Países Baixos">
+                <div class="card-content">
+                    <h3>Amsterdã, Países Baixos</h3>
+                    <p>Conhecida por seus belos canais e arquitetura única, Amsterdã é a cidade perfeita para passeios de bicicleta e visitas a museus, como o Rijksmuseum e a Casa de Anne Frank.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>  
+        <p>&copy; 2024 Descubra a Europa. Todos os direitos reservados.</p>  
+    </footer>  
+</body>
+</html>
